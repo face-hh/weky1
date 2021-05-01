@@ -25,7 +25,7 @@ module.exports.help = {
 
 module.exports.config = {
 	args: false,
-	restricted: true,
+	restricted: false,
 	category: 'currency',
 	disable: false,
 	cooldown: 100000,
