@@ -10,7 +10,7 @@ let uwu = new Discord.MessageEmbed()
       .setFooter(`Got ${ae} IQ ;)`)
       .setColor("GREEN")
       message.reply(uwu)
-      client.ADDIQ(member.id, ae)
+      client.ADDIQ(message.author.id, ae)
 };
 module.exports.help = {
 	aliases: [],
