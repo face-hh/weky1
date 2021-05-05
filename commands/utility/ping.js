@@ -16,9 +16,9 @@
     
     module.exports.help = {
         aliases: [],
-        name: 'invite',
-        description: 'Links of da bot',
-        usage: config.prefix + 'invite',
+        name: 'ping',
+        description: 'Ping',
+        usage: config.prefix + 'ping',
     };
     
     module.exports.config = {
